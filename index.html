@@ -173,6 +173,168 @@
             display: block;
             margin-bottom: 5px;
         }
+
+        .five {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 10px;
+    margin: 20px 20px 20px 20px;
+    }
+
+.box {
+    border: none;
+    margin: 30px ;
+    margin-top: 30px;
+    
+    
+    background-color: transparent;
+}
+
+.pic {
+    width: 10%;
+    border-radius:  5px 5px 0px 0px;
+    
+    
+}
+.name{
+    align-items:center ;
+    font-size: 25px;
+}
+
+ 
+
+.designation{
+    color:grey;
+    font-size: 20px;
+}
+
+
+.six h1, h4 {
+            text-align: center;
+        }
+        .six h4 {
+            color: yellow;
+        }
+        .six6 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 20px;
+        }
+        .image-box {
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            color: white;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+        .image-box:hover {
+            transform: translateY(-20px);
+        }
+        .image-text {
+            font-size: 24px;
+            position: absolute;
+            left: 10px;
+            transition: top 0.3s ease;
+        }
+        .room-name {
+            bottom: 40px; 
+        }
+        .price {
+            bottom: 10px;
+        }
+        .image-box:hover .room-name {
+            top: 10px;
+            bottom: auto;
+        }
+        .image-box:hover .price {
+            top: 40px;
+            bottom: auto;
+        }
+
+
+
+        .four{
+            width: 100%;
+            height: 700px;
+            
+            display: flex;
+        }
+        #four_1{
+            width:50%;
+            margin-top: 100px;
+            padding-top: 50px;
+            padding-left: 50px;
+            margin-left: 50px;
+        }
+        #four_2{
+            
+            padding-right: 40px;
+        }
+
+
+        .nine{
+            
+            text-align: center;
+            background-image: url('https://img.freepik.com/free-photo/luxury-bedroom-with-modern-design-elegance-generated-by-ai_188544-33409.jpg?size=626&ext=jpg'); 
+            width: 100%;
+            background-color: black;
+            height: 5cm;
+            color: aliceblue;
+            
+        }
+        .nine h3{
+            font-size: 10px;
+            padding-top: 1cm;
+            color: yellow;
+        }
+        .nine h1{
+            font-size: 15px;
+            padding-bottom: 0.5cm;
+        }
+        .nine button{
+            background-color: aliceblue;
+            border: none;
+            height: 1cm;
+            width: 2cm;
+            
+        }
+
+        .seven{
+            display: flex;
+            justify-content: space-around;
+            align-content: baseline;
+            align-items: center;
+            padding: 50px;
+        }
+        .seven button{
+            margin-top: 20px;
+            border: none;
+            width: 5cm;
+            height: 1cm;
+            color: aliceblue;
+            background-color: yellow;
+
+            font-size: 20px; margin-top: 50px;
+
+        }
+        .eight{
+            display: flex;
+            padding-left: 7cm;
+        }
+        .eight img{
+            height: 400px;
+            width:300px
+        }
+
+
+
     </style>
 </head>
 <body>
@@ -248,28 +410,7 @@
             
         </div>
     </div>
-    <style>
-        .four{
-            width: 100%;
-            height: 700px;
-            
-            display: flex;
-        }
-        #four_1{
-            width:50%;
-            margin-top: 100px;
-            padding-top: 50px;
-            padding-left: 50px;
-            margin-left: 50px;
-        }
-        #four_2{
-            
-            padding-right: 40px;
-        }
-
-
-    </style>
-
+   
     <div class="four">
         <div id="four_1">
             <h3 style="color:yellow">ABOUT US</h3>
@@ -289,42 +430,7 @@
         </div>
 
     </div>
-    <style>
-    .five {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-    gap: 10px;
-    margin: 20px 20px 20px 20px;
-    }
-
-.box {
-    border: none;
-    margin: 30px ;
-    margin-top: 30px;
     
-    
-    background-color: transparent;
-}
-
-.pic {
-    width: 10%;
-    border-radius:  5px 5px 0px 0px;
-    
-    
-}
-.name{
-    align-items:center ;
-    font-size: 25px;
-}
-
- 
-
-.designation{
-    color:grey;
-    font-size: 20px;
-}
-
-        </style>
         <div class="five">
             
        
@@ -382,56 +488,7 @@
 
         </div>
     </div>
-    <style>
-        .six h1, h4 {
-            text-align: center;
-        }
-        .six h4 {
-            color: yellow;
-        }
-        .six6 {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-            margin: 20px;
-        }
-        .image-box {
-            height: 500px;
-            background-size: cover;
-            background-position: center;
-            position: relative;
-            color: white;
-            text-align: left;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            padding: 10px;
-            transition: transform 0.3s ease;
-        }
-        .image-box:hover {
-            transform: translateY(-20px);
-        }
-        .image-text {
-            font-size: 24px;
-            position: absolute;
-            left: 10px;
-            transition: top 0.3s ease;
-        }
-        .room-name {
-            bottom: 40px; 
-        }
-        .price {
-            bottom: 10px;
-        }
-        .image-box:hover .room-name {
-            top: 10px;
-            bottom: auto;
-        }
-        .image-box:hover .price {
-            top: 40px;
-            bottom: auto;
-        }
-    </style>
+    
     
     <div class="six">
         <h4>OUR ROOM</h4>
@@ -457,35 +514,7 @@
         </div>
     </div>
 
-    <style>
-        .seven{
-            display: flex;
-            justify-content: space-around;
-            align-content: baseline;
-            align-items: center;
-            padding: 50px;
-        }
-        .seven button{
-            margin-top: 20px;
-            border: none;
-            width: 5cm;
-            height: 1cm;
-            color: aliceblue;
-            background-color: yellow;
-
-            font-size: 20px; margin-top: 50px;
-
-        }
-        .eight{
-            display: flex;
-            padding-left: 7cm;
-        }
-        .eight img{
-            height: 400px;
-            width:300px
-        }
-
-    </style>
+    
 
     <div class="seven">
         <div><h3>Planning your next trip? Save up to 25% on your hotel</h1> </div>
@@ -503,35 +532,7 @@
     </div>
 
 
-    <style>
-        .nine{
-            
-            text-align: center;
-            background-image: url('https://img.freepik.com/free-photo/luxury-bedroom-with-modern-design-elegance-generated-by-ai_188544-33409.jpg?size=626&ext=jpg'); 
-            width: 100%;
-            background-color: black;
-            height: 4.5cm;
-            color: aliceblue;
-            
-        }
-        .nine h3{
-            font-size: 10px;
-            padding-top: 1cm;
-            color: yellow;
-        }
-        .nine h1{
-            font-size: 15px;
-            padding-bottom: 0.5cm;
-        }
-        .nine button{
-            background-color: aliceblue;
-            border: none;
-            height: 1cm;
-            width: 2cm;
-            
-        }
-
-    </style>
+    
    <div class="nine">
         <h3>WHY CHOOSE US</h3>
         <h1>Contact us now to get the latest deals and for the <br>
